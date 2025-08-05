@@ -1,12 +1,15 @@
 [
-  { "id": "car_body", "name": "Center", "file": "/models/pick.glb" },
-  { "id": "back_left_tire", "name": "Back Left Tyre", "file": "/models/backlefttire.glb" },
-  { "id": "back_right_tire.glb", "name": "Back Right Tyre", "file": "/models/backrighttire.glb" },
-  { "id": "engine", "name": "Engine", "file": "/models/engine.glb" },
-  { "id": "front_left_tyre", "name": "Front Left Tyre", "file": "/models/frontlefttire.glb" },
-  { "id": "front_right_tire", "name": "Front Right Tyre", "file": "/models/frontrighttire.glb" },
-  { "id": "left_window", "name": "Left Window", "file": "/models/leftwindow.glb" },
-  { "id": "right_window", "name": "Right Window", "file": "/models/rightwindow.glb" },
-  { "id": "steering_axle", "name": "Streeing Axle", "file": "/models/steeringaxle.glb" },
-   { "id": "full_view", "name": "Full View", "file": "/models/car.glb" }
-]
+  { "id": "car_body", "name": "Center", "file": "/models/pick_optimized.glb" },
+  { "id": "back_left_tire", "name": "Back Left Tyre", "file": "/models/backlefttire_optimized.glb" },
+  { "id": "back_right_tire", "name": "Back Right Tyre", "file": "/models/backrighttire_optimized.glb" },
+  { "id": "engine", "name": "Engine", "file": "/models/engine_optimized.glb" },
+  { "id": "front_left_tyre", "name": "Front Left Tyre", "file": "/models/frontlefttire_optimized.glb" },
+  { "id": "front_right_tire", "name": "Front Right Tyre", "file": "/models/frontrighttire_optimized.glb" },
+  { "id": "left_window", "name": "Left Window", "file": "/models/leftwindow_optimized.glb" },
+  { "id": "right_window", "name": "Right Window", "file": "/models/rightwindow_optimized.glb" },
+  { "id": "steering_axle", "name": "Streeing Axle", "file": "/models/steeringaxle_optimized.glb" },
+    { "id": "frontstand", "name": "Front Stand", "file": "/models/frontstand_optimized.glb" },
+      { "id": "lastlasttyreleft", "name": "Last Tyre Left", "file": "/models/lastlasttyreleft_optimized.glb" },
+        { "id": "lastlasttyreright", "name": "Last Tyre Right", "file": "/models/lastlasttyreright_optimized.glb" },
+          { "id": "mainpart", "name": "Main Part", "file": "/models/mainpart_optimized.glb" },
+            { "id": "wire", "name": "wire", "file": "/models/wire_optimized.glb" }]

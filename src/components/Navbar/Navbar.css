@@ -29,7 +29,7 @@
   gap: 12px;
 }
 
-.brand-logo {
+/* .brand-logo {
   width: 40px;
   height: 40px;
   background: linear-gradient(135deg, #fbbf24, #f59e0b);
@@ -39,6 +39,22 @@
   justify-content: center;
   box-shadow: 0 4px 12px rgba(245, 158, 11, 0.3);
   transition: transform 0.3s ease;
+} */
+.brand-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;         /* No fixed width */
+    height: auto;        /* No fixed height */
+    box-shadow: none;    /* Remove any shadow */
+    border-radius: 0;    /* No circle */
+    overflow: visible;   /* Show full image */
+}
+
+.logo-image {
+    width: 150px;        /* Increase as needed */
+    height: 100px;        /* Maintain aspect ratio */
+    object-fit: contain; /* Clean scaling */
 }
 
 .brand-logo:hover {
@@ -46,7 +62,7 @@
 }
 
 .logo-text {
-  color: #000;
+  color: #0d0044;
   font-weight: bold;
   font-size: 18px;
 }
@@ -106,8 +122,8 @@
 }
 
 .nav-item-active {
-  background: linear-gradient(135deg, rgba(251, 191, 36, 0.2), rgba(245, 158, 11, 0.2));
-  color: #fbbf24;
+  background: linear-gradient(135deg, rgba(62, 75, 255, 0.2), rgba(62, 75, 255, 0.2));
+  color: #5f93fc;
   box-shadow: 0 4px 12px rgba(245, 158, 11, 0.2);
 }
 
@@ -121,11 +137,11 @@
 
 .nav-icon {
   transition: color 0.3s ease;
-    color: #000;
+    color: #0d0044;
 }
 
 .nav-item-active .nav-icon {
-  color: #fbbf24;
+  color: #00399c;
 }
 
 .nav-item:hover .nav-icon {
@@ -134,7 +150,7 @@
 
 .nav-label {
   white-space: nowrap;
-  color: #000;
+  color: #0d0044;
 }
 
 /* Active indicator */
@@ -144,7 +160,7 @@
   left: 0;
   right: 0;
   height: 2px;
-  background: linear-gradient(90deg, #fbbf24, #f59e0b);
+  background: linear-gradient(90deg, #f50b0b, #f50b0b);
   border-radius: 2px;
 }
 
@@ -254,12 +270,12 @@
 
 /* Focus states for accessibility */
 .nav-item:focus {
-  outline: 2px solid #fbbf24;
+  outline: 2px solid #7252ff;
   outline-offset: 2px;
 }
 
 .mobile-menu-btn:focus {
-  outline: 2px solid #fbbf24;
+  outline: 2px solid #7252ff;
   outline-offset: 2px;
 }
 

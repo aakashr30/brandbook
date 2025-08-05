@@ -4,21 +4,20 @@ const Footer = () => {
   return (
     <footer className="futuristic-footer">
       <style jsx>{`
-       .futuristic-footer {
-  background: linear-gradient(135deg, #000000 0%, #1a1a1a 50%, #333333 100%);
-  color: #ffffff;
-  padding: 2rem;
-  border-top: 2px solid #ffffff;
-  box-shadow: 0 -10px 30px rgba(255, 255, 255, 0.1);
-  min-height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  position: relative; /* keep only if needed for ::before animations */
-  z-index: 10; /* Keep footer behind floating effects */
-}
+        .futuristic-footer {
+          background: linear-gradient(135deg, #000000 0%, #1a1a1a 50%, #333333 100%);
+          color: #ffffff;
+          padding: 2rem;
+          border-top: 2px solid #ffffff;
+          box-shadow: 0 -10px 30px rgba(255, 255, 255, 0.1);
+          min-height: 200px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+          z-index: 10;
+        }
 
         .futuristic-footer::before {
           content: '';
@@ -218,20 +217,34 @@ const Footer = () => {
           }
         }
 
+        .footer-logo {
+          width: 240px;
+          height: 120px;
+          margin-bottom: 1rem;
+          object-fit: contain;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        }
+
         @media (max-width: 768px) {
           .brand-title {
             font-size: 2rem;
             letter-spacing: 2px;
           }
-          
+
           .nav-links {
             gap: 1.5rem;
             flex-direction: column;
             align-items: center;
           }
-          
+
           .tagline {
             font-size: 1rem;
+          }
+
+          .footer-logo {
+            width: 90px;
           }
         }
       `}</style>
@@ -246,7 +259,7 @@ const Footer = () => {
       </div>
 
       <div className="footer-content">
-        <h1 className="brand-title">Brand Book</h1>
+        <img src="/images/Brandbooklogo.png" alt="Brand Book" className="footer-logo" />
         <p className="tagline">Sculpting Digital Realities</p>
 
         <nav className="nav-links">
@@ -259,7 +272,7 @@ const Footer = () => {
         <div className="tech-accent">Advanced 3D Modeling</div>
 
         <div className="copyright">
-          © 2025 3D Studio. Crafting tomorrow's visual experiences.
+          © 2025 Brand Book. Crafting tomorrow's visual experiences.
         </div>
       </div>
     </footer>

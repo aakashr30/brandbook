@@ -105,6 +105,7 @@
 import React, { useState } from "react";
 import { Home, Info, Settings, Wrench } from "lucide-react";
 import "./Navbar.css";
+// import tridumvistalogo from "../../../public/images/tridumvistalogo";
 
 const Navbar = () => {
     const [activeItem, setActiveItem] = useState("home");
@@ -123,8 +124,8 @@ const Navbar = () => {
                     {/* Logo/Brand */}
                     <div className="navbar-brand">
                         <div className="brand-logo">
-                            <span className="logo-text">C</span>
-                        </div>
+                            <img src="/images/tridumvistalogo.png" alt="Logo" className="logo-image" />                        </div>
+
                         {/* <div className="brand-info">
                             <h1 className="brand-title">CAT 150 Grader</h1>
                             <p className="brand-subtitle">Configurator</p>

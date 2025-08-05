@@ -1,6 +1,6 @@
 /* Simple Sidebar CSS */
 
-.sidebar {
+/* .sidebar {
   width: 280px;
   background: rgba(34, 34, 34, 0.95);
   backdrop-filter: blur(20px);
@@ -11,6 +11,32 @@
   border-right: 1px solid rgba(255, 255, 255, 0.1);
   box-shadow: 2px 0 20px rgba(0, 0, 0, 0.3);
   position: relative;
+} */
+.sidebar {
+  width: 280px;
+background: rgba(34, 34, 34, 0.95); 
+ color: white;
+  height: 100vh; /* Ensure full viewport height */
+  overflow-y: auto; /* Enable vertical scrolling */
+  overflow-x: hidden; /* Hide horizontal overflow */
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Custom scrollbar for WebKit browsers */
+.sidebar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background: rgba(251, 191, 36, 0.3); /* Yellow tone */
+  border-radius: 3px;
+}
+
+/* Optional: add smooth scrolling */
+.sidebar {
+  scroll-behavior: smooth;
 }
 
 .sidebar.collapsed {
