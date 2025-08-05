@@ -1,0 +1,12 @@
+[
+  { "id": "car_body", "name": "Center", "file": "/models/pick.glb" },
+  { "id": "back_left_tire", "name": "Back Left Tyre", "file": "/models/backlefttire.glb" },
+  { "id": "back_right_tire.glb", "name": "Back Right Tyre", "file": "/models/backrighttire.glb" },
+  { "id": "engine", "name": "Engine", "file": "/models/engine.glb" },
+  { "id": "front_left_tyre", "name": "Front Left Tyre", "file": "/models/frontlefttire.glb" },
+  { "id": "front_right_tire", "name": "Front Right Tyre", "file": "/models/frontrighttire.glb" },
+  { "id": "left_window", "name": "Left Window", "file": "/models/leftwindow.glb" },
+  { "id": "right_window", "name": "Right Window", "file": "/models/rightwindow.glb" },
+  { "id": "steering_axle", "name": "Streeing Axle", "file": "/models/steeringaxle.glb" },
+   { "id": "full_view", "name": "Full View", "file": "/models/car.glb" }
+]
