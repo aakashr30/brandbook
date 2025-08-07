@@ -1,5 +1,5 @@
 [
-  { "id": "car_body", "name": "Center", "file": "/models/pick_optimized.glb" },
+  { "id": "car_body", "name": "Center", "file": "/models/pickOptimized.glb" },
   { "id": "back_left_tire", "name": "Back Left Tyre", "file": "/models/backlefttireoptimized.glb" },
   { "id": "back_right_tire", "name": "Back Right Tyre", "file": "/models/backrighttireoptimized.glb" },
   { "id": "engine", "name": "Engine", "file": "/models/engineoptimized.glb" },
@@ -8,8 +8,8 @@
   { "id": "left_window", "name": "Left Window", "file": "/models/leftwindowoptimized.glb" },
   { "id": "right_window", "name": "Right Window", "file": "/models/rightwindowoptimized.glb" },
   { "id": "steering_axle", "name": "Streeing Axle", "file": "/models/steeringaxleoptimized.glb" },
-    { "id": "frontstand", "name": "Front Stand", "file": "/models/frontstandoptimized.glb" },
-      { "id": "lastlasttyreleft", "name": "Last Tyre Left", "file": "/models/lastlasttyreleftoptimized.glb" },
-        { "id": "lastlasttyreright", "name": "Last Tyre Right", "file": "/models/lastlasttyrerightoptimized.glb" },
-          { "id": "mainpart", "name": "Main Part", "file": "/models/mainpartoptimized.glb" },
-            { "id": "wire", "name": "wire", "file": "/models/wireoptimized.glb" }]
+{ "id": "frontstand", "name": "Front Stand", "file": "/models/frontstandoptimized.glb" },
+{ "id": "lastlasttyreleft", "name": "Last Tyre Left", "file": "/models/lastlasttyreleftoptimized.glb" },
+{ "id": "lastlasttyreright", "name": "Last Tyre Right", "file": "/models/lastlasttyrerightoptimized.glb" },
+{ "id": "mainpart", "name": "Main Part", "file": "/models/mainpartoptimized.glb" },
+{ "id": "wire", "name": "wire", "file": "/models/wireoptimized.glb" }]
